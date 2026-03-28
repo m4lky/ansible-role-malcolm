@@ -1,0 +1,15 @@
+galaxy_info:
+  namespace: m4lky
+  role_name: ansible-role-malcolm
+  description: user configuration
+  min_ansible_version: "2.12"
+
+  platforms:
+    - name: Ubuntu
+      versions:
+        - jammy
+        - focal
+
+
+dependencies: []
+
