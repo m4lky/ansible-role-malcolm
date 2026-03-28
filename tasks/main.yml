@@ -3,6 +3,7 @@
   ansible.builtin.authorized_key:
     user: "{{ user }}"
     key: "{{ lookup('file', 'malcolm.pub') }}"
+    state: present
 
 - name: Create passwordless sudoers file for malcolm
   ansible.builtin.copy:
