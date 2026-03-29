@@ -1,4 +1,4 @@
-# Playbook to run Samba install role
+# Playbook to configure system for user = malcolm
 #
 # Example command
 # ansible-playbook ansible-role-malcolm/tests/test.yml --ask-become-pass
